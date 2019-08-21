@@ -1,53 +1,72 @@
 <div class="content-wrapper">
 
-  <section class="content-header">
-    
-    <h1>
-      
-      Planeación
-      
-      <small>Panel de Control</small>
-    
-    </h1>
+    <section class="content-header">
 
-    <ol class="breadcrumb">
-      
-      <li><a href="#"><i class="fa fa-dashboard"></i> Inicio</a></li>
-      
-      <li class="active">Tablero</li>
-    
-    </ol>
+        <h1>
 
-  </section>
+            Planeación
 
-  <!-- Main content -->
-  <section class="content">
+            <small>Desliza hacia abajo y comienza tu planeación</small>
 
-    <!-- Default box -->
-    <div class="box">
-      <div class="box-header with-border">
-        <h3 class="box-title">Title</h3>
+        </h1>
 
-        <div class="box-tools pull-right">
-          <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
-                  title="Collapse">
-            <i class="fa fa-minus"></i></button>
-          <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-            <i class="fa fa-times"></i></button>
+        <ol class="breadcrumb">
+
+            <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
+
+            <li class="active">Planeación</li>
+
+        </ol>
+
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+
+        <div class="box">
+            <div class="box-header with-border">
+                <div class="login-box">
+
+                    <div class="login-box-body">
+
+                        <div class="form-group has-feedback">
+
+                            <button type="button" class="btn btn-block btn-primary btn-lg" data-toggle="modal"
+                                data-target="#modalClaseFisica">Clase de Educación Física</button>
+
+                        </div>
+
+                        <div class="form-group has-feedback">
+
+                            <button type="button" class="btn btn-block btn-primary btn-lg" data-toggle="modal"
+                                data-target="#modalFortalecimiento">Actividades de Fortalecimiento</button>
+
+                        </div>
+
+                        <div class="form-group has-feedback">
+
+                            <button type="button" class="btn btn-block btn-primary btn-lg" data-toggle="modal"
+                                data-target="#modalActividad">Agregar una nueva actividad</button>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
-      <div class="box-body">
-        Start creating your amazing application!
-      </div>
-      <!-- /.box-body -->
-      <div class="box-footer">
-        Footer
-      </div>
-      <!-- /.box-footer-->
-    </div>
-    <!-- /.box -->
 
-  </section>
-  <!-- /.content -->
+    </section>
+    <!-- /.content -->
 </div>
-<!-- /.content-wrapper -->
+
+
+
+
+
+
+
+

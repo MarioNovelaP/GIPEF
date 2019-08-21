@@ -1,33 +1,81 @@
 <aside class="main-sidebar">
 
-	 <section class="sidebar">
+    <section class="sidebar">
 
-		<ul class="sidebar-menu">
+        <ul class="sidebar-menu">
 
-			<li class="active">
+            <li class="active">
 
-				<a href="inicio">
+                <a href="inicio">
 
-					<i class="fa fa-home"></i>
-					<span>Inicio</span>
+                    <i class="fa fa-home"></i>
+                    <span>Inicio</span>
 
-				</a>
+                </a>
 
-			</li>
+            </li>
 
-			<li>
 
-				<a href="planeacion">
+            <li class="treeview">
 
-					<i class="fa fa-circle-o"></i>
-					<span>Usuarios</span>
+                <a href="#">
 
-				</a>
+                    <i class="fa fa-pencil-square-o"></i>
+                    <span>Planeaciones</span>
 
-			</li>
+                    <span class="pull-right-container">
 
-		</ul>
+                        <i class="fa fa-angle-left pull-right"></i>
 
-	 </section>
+                    </span>
+
+                </a>
+
+                <ul class="treeview-menu">
+
+                    <li>
+
+                        <a href="PlanClase">
+
+                            <i class="fa fa-circle-o"></i>
+							<span>Planea la clase de E.F</span>
+							
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="PlanCurricular">
+
+                            <i class="fa fa-circle-o"></i>
+                            <span>Planea actividades de <br>Fortalecimiento Curricular</span>
+
+                        </a>
+
+                    </li>
+
+
+                </ul>
+
+            </li>
+
+
+
+
+            <li>
+
+                <a href="actividades">
+
+                    <i class="fa fa-calendar-plus-o"></i>
+                    <span>Actividades</span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </section>
 
 </aside>

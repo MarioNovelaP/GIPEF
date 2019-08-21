@@ -13,16 +13,18 @@ class ControladorUsuarios{
 			if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingUsuario"]) &&
 			   preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])){
 
-				$tabla = "usuarios";
+				$tabla = "docentes";
 
-				$item = "usuario";
+				$item = "filiacion";
+
 				$valor = $_POST["ingUsuario"];
 
 				$respuesta = ModeloUsuarios::MdlMostrarUsuarios($tabla, $item, $valor);
+				//var_dump($respuesta);
 
-				if($respuesta["usuario"] == $_POST["ingUsuario"] && $respuesta["password"] == $_POST["ingPassword"]){
+				if($respuesta["filiacion"] == $_POST["ingUsuario"] && $respuesta["contraseña"] == $_POST["ingPassword"]){
 
-					$_SESSION["iniciarSesion"] = "ok";
+					$_SESSION["iniciarSesion"] = "ok";  //EL NOMBRE DE  SESION SE TOMA DESDE PLANTILLA.PHP
 
 					echo '<script>
 
@@ -34,7 +36,7 @@ class ControladorUsuarios{
 
 					echo '<br><div class="alert alert-danger">Error al ingresar, vuelve a intentarlo</div>';
 
-				}
+				} 
 
 			}	
 

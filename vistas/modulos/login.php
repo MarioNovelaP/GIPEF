@@ -10,14 +10,14 @@
 
   <div class="login-box-body">
 
-    <p class="login-box-msg">Ingresar al sistema</p>
+    <p class="login-box-msg">Ingresar a </p>
 
     <form method="post">
 
       <div class="form-group has-feedback">
 
-        <input type="text" class="form-control" placeholder="Usuario" name="ingUsuario" required>
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+        <input type="text" class="form-control" placeholder="Filiación" name="ingUsuario" required>
+        <span class="glyphicon glyphicon-check form-control-feedback"></span>
 
       </div>
 
@@ -37,6 +37,13 @@
         </div>
 
       </div>
+
+      <?php
+
+        $login = new ControladorUsuarios();
+        $login -> ctrIngresoUsuario();
+        
+      ?>
 
     </form>
 
