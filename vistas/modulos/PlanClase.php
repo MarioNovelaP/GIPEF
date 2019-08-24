@@ -164,23 +164,10 @@ MODAL AGREGAR CLASE DE FISICA
                                     </select>
                                 </div>
                             </div>
-
                         </div>
 
-                        <div class="row">
-
-                            <div class="col-xs-7">
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option value="">--Aprendizajes Esperados--</option>
-                                        <option value="aprendizaje">adsax</option>
-                                        <option value="aprendizaje">dsdsx</option>
-                                        <option value="aprendizaje">asdsad*</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-7">
+                        
+                            
                                 <div class="form-group">
                                     <select class="form-control">
                                         <option value="">--Componente Pedagógico
@@ -193,22 +180,34 @@ MODAL AGREGAR CLASE DE FISICA
                                             acción motriz</option>
                                     </select>
                                 </div>
-                            </div>
+                            
+
+                            
+
+                                
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="">--Aprendizajes Esperados--</option>
+                                            <option value="aprendizaje">adsax</option>
+                                            <option value="aprendizaje">dsdsx</option>
+                                            <option value="aprendizaje">asdsad*</option>
+                                        </select>
+                                    </div>
+                                
+
+                           
 
                         </div>
 
-
                     </div>
 
-                </div>
+                    <div class="modal-footer">
 
-                <div class="modal-footer">
+                        <button type="button" class="btn btn-warning pull-left" data-dismiss="modal">Cerrar</button>
 
-                    <button type="button" class="btn btn-warning pull-left" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Crear clase</button>
 
-                    <button type="submit" class="btn btn-primary">Crear clase</button>
-
-                </div>
+                    </div>
         </form>
     </div>
 
